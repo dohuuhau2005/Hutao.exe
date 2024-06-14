@@ -1,0 +1,142 @@
+header {
+    .background {
+        background-color: #8c8c8c;
+        height: 250px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 1474px;
+        margin-left: -9px;
+        margin-top: -9px;
+        margin-right: 228px;
+    }
+
+    .Button_uhd a,
+    .Button_map a {
+        border-block-color: red;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #C80036;
+        border-block-color: #C80036;
+        border: 1px solid;
+        border-radius: 50px;
+        padding: 25px;
+
+        color: #D72C16;
+        background: darkred;
+        box-shadow: 11px 8px 9px 4px rgba(0, 0, 0, 0.5);
+        font-size: 36px;
+    }
+
+    .Button_menu a,
+    .Button_img a {
+        border-block-color: red;
+        border: 1px solid red;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #C80036;
+        border-block-color: #C80036;
+        padding: 25px;
+        border-radius: 50px;
+        color: #D72C16;
+        background: darkred;
+        box-shadow: -11px 8px 9px 4px rgba(0, 0, 0, 0.5);
+        font-size: 36px;
+    }
+
+    .Button_img {
+        text-align: right;
+        margin-top: 57px;
+        margin-right: 20px;
+    }
+
+    .Button_menu {
+        text-align: right;
+        margin-top: -130px;
+        margin-right: 204px;
+    }
+
+    .Button_uhd {
+
+        margin-top: -185PX;
+        MARGIN-RIGHT: 32px;
+        margin-left: 204px;
+
+    }
+
+    .Button_map {
+        margin-top: 57px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .logo img {
+
+        margin-left: 518px;
+        margin-top: -219px;
+        margin-right: auto;
+        width: 26%;
+        height: 173px;
+        transform: scale(1.5);
+        /*phong to*/
+
+    }
+}
+
+
+body {
+    .body_background {
+        background-color: #1B2537;
+        width: 1473px;
+        height: 1000px;
+        margin-top: 32px;
+        /* padding-right: 64px; */
+        margin-left: -8px;
+    }
+
+    .Hutaoname {
+        width: 20px;
+        height: 89px;
+        margin-top: -985px;
+        margin-left: 262px;
+
+    }
+
+    .vision {
+        margin-left: 490px;
+        margin-top: -46px;
+
+        img {
+            width: 76px;
+            height: 76px;
+        }
+    }
+
+    .hutao {
+        padding: 9px;
+        margin-top: 122px;
+        margin-left: 651px;
+        width: 10px;
+        transform: scale(1.9);
+    }
+
+    .hutaopdf embed {
+        width: 755px;
+        height: 427px;
+        aspect-ratio: 4 / 3;
+        margin-top: 72px;
+        margin-left: 322px;
+    }
+
+}
+
+
+
+
+
+// .red {
+//     border: 1px solid red;
+// }
