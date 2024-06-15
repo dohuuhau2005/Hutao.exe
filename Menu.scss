@@ -1,7 +1,7 @@
 .toggle {
     img {
-        width: 1em;
-        height: 1em;
+        width: 3em;
+        height: 3em;
         border-radius: 50%;
     }
 }
@@ -25,14 +25,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    // min-height: 300vh;
     background: #2D1522;
 }
 
 .menu {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
 
     display: flex;
     justify-content: center;
@@ -44,10 +44,10 @@ body {
         position: absolute;
         left: 0;
         list-style: none;
-        transform-origin: 100px;
+        transform-origin: 300px;
         transition: 0.5s;
         transition-delay: calc(0.1s*var(--i));
-        transform: rotate(0deg) translateX(80px);
+        transform: rotate(0deg) translateX(240px);
     }
 }
 
@@ -55,14 +55,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 120px;
+    height: 120px;
     background: #fff;
     border-radius: 50%;
     transform: rotate(calc(360deg/-6*var(--i)));
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
     color: #111;
     transition: 0.5s;
+    font-size: 3em;
 }
 
 .menu li a :hover {
@@ -75,8 +76,8 @@ body {
 
 .toggle {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 180px;
+    height: 180px;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -85,7 +86,7 @@ body {
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
-    font-size: 8em;
+    font-size: 6em;
     transition: transform 1.25s;
 }
 
@@ -105,13 +106,13 @@ header {
 
     }
 
-    .menuontop img {
-        width: 636px;
-        height: 248px;
-        position: absolute;
-        top: 20px;
-        /* vertical-align: middle; */
-        /* max-width: 100%; */
-        right: 451px;
-    }
+    // .menuontop img {
+    //     width: 636px;
+    //     height: 248px;
+    //     position: absolute;
+    //     top: 20px;
+    //     /* vertical-align: middle; */
+    //     /* max-width: 100%; */
+    //     right: 451px;
+    // }
 }

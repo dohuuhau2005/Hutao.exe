@@ -110,8 +110,10 @@ body {
         margin-top: -46px;
 
         img {
+
             width: 76px;
             height: 76px;
+
         }
     }
 
@@ -131,6 +133,21 @@ body {
         margin-left: 322px;
     }
 
+    .text {
+
+        padding: 43px;
+        color: red;
+        /* text-align: center; */
+        text-align: left;
+
+    }
+
+    // .body_background2 {
+    //     border: 1px solid red;
+    //     width: 300px;
+    //     height: 200px;
+
+    // }
 }
 
 
