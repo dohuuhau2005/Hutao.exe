@@ -8,7 +8,8 @@
 
 .Thanhduyvat,
 .vukhi,
-.Materials {
+.Materials,
+.team {
     img {
         width: 1em;
         height: 1em;
@@ -59,7 +60,7 @@ body {
     height: 120px;
     background: #fff;
     border-radius: 50%;
-    transform: rotate(calc(360deg/-6*var(--i)));
+    transform: rotate(calc(360deg/-7*var(--i)));
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
     color: #111;
     transition: 0.5s;
@@ -71,7 +72,7 @@ body {
 }
 
 .menu.active li {
-    transform: rotate(calc(360deg/6*var(--i)));
+    transform: rotate(calc(360deg/7*var(--i)));
 }
 
 .toggle {

@@ -88,6 +88,11 @@ header {
 
 
 body {
+    border: 1px solid red;
+    height: 6869px;
+    background-color: #1B2537;
+    border: #1863a4;
+
     .body_background {
         background-color: #1B2537;
         width: 1473px;
@@ -95,6 +100,15 @@ body {
         margin-top: 32px;
         /* padding-right: 64px; */
         margin-left: -8px;
+    }
+
+    .Lyue {
+        img {
+            margin-left: 293px;
+            position: relative;
+            right: -84px;
+            width: 665px;
+        }
     }
 
     .Hutaoname {
@@ -142,6 +156,42 @@ body {
 
     }
 
+    .divcharm {
+        margin-top: -96px;
+        margin-left: 408px;
+
+
+        a {
+            text-decoration: none;
+            text-align: center;
+            font-size: 35px;
+            /* color: white; */
+            border-width: 7px;
+            border: 1px solid green;
+            border-radius: 126px;
+            border-width: 5px;
+            background-color: greenyellow;
+        }
+    }
+
+    .divtraler {
+        margin-top: -40px;
+        margin-left: 708px;
+
+
+        a {
+            text-decoration: none;
+            text-align: center;
+            font-size: 35px;
+            /* color: white; */
+            border-width: 7px;
+            border: 1px solid green;
+            border-radius: 126px;
+            border-width: 5px;
+            background-color: greenyellow;
+        }
+    }
+
     // .body_background2 {
     //     border: 1px solid red;
     //     width: 300px;
@@ -150,6 +200,32 @@ body {
     // }
 }
 
+footer {
+    background-color: white;
+    margin-top: 20px;
+
+    .foot {
+        .mylogo {
+            img {
+                width: 228px;
+                height: 228px;
+                margin-top: 31px;
+                margin-left: 30px;
+            }
+        }
+    }
+
+    .textfoot {
+        margin-top: -142px;
+        margin-left: 1185px;
+    }
+
+    // .mylogo,
+    // .textfoot {
+    //     display: inline;
+    // }
+
+}
 
 
 
