@@ -127,6 +127,7 @@ body {
 
             width: 76px;
             height: 76px;
+            border-radius: 50%;
 
         }
     }
@@ -201,23 +202,28 @@ body {
 }
 
 footer {
-    background-color: white;
+    background-image: url(./footer.png);
     margin-top: 20px;
 
-    .foot {
-        .mylogo {
-            img {
-                width: 228px;
-                height: 228px;
-                margin-top: 31px;
-                margin-left: 30px;
-            }
+
+    .mylogo {
+        height: 145px;
+
+        img {
+            width: 228px;
+            height: 228px;
+            margin-top: 21px;
+            margin-left: 276px;
+            border-radius: 50%;
         }
     }
 
+
     .textfoot {
         margin-top: -142px;
-        margin-left: 1185px;
+        margin-left: 994px;
+        margin-right: 91px;
+        font-size: 31px;
     }
 
     // .mylogo,
