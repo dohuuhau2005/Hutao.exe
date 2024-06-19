@@ -172,6 +172,11 @@ body {
             border-radius: 126px;
             border-width: 5px;
             background-color: greenyellow;
+            padding: 10px
+        }
+
+        a:hover {
+            background-color: rgb(118, 119, 117);
         }
     }
 
@@ -190,6 +195,12 @@ body {
             border-radius: 126px;
             border-width: 5px;
             background-color: greenyellow;
+            padding: 10px
+        }
+
+        a:hover {
+
+            background-color: rgb(118, 119, 117);
         }
     }
 
@@ -203,7 +214,9 @@ body {
 
 footer {
     background-image: url(./footer.png);
+    background-size: cover;
     margin-top: 20px;
+
 
 
     .mylogo {
@@ -233,6 +246,19 @@ footer {
 
 }
 
+//hover
+
+
+
+.Button_uhd,
+.Button_map,
+.Button_img,
+.Button_menu {
+    a:hover {
+        color: #8c8c8c;
+        background: #1863a4;
+    }
+}
 
 
 

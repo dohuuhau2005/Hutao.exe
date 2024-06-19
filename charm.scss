@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #8DC9FD, #5AABFC);
+    background-size: cover;
+
+    .line1 {
+        display: inline-block;
+
+        img {
+            width: 350px;
+            height: 500px;
+        }
+    }
+}
