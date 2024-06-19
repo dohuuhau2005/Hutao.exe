@@ -7,14 +7,21 @@
 header {
     background-color: rgb(22, 21, 22);
 
+
+
     .logo {
 
+        align-items: center;
+        position: relative;
+        top: 20px;
+        left: 30px;
 
 
         img {
-            width: 20px;
-            height: 20px;
-            align-items: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+
         }
 
     }
@@ -33,8 +40,10 @@ header {
 
     }
 
-    li :hover {
+    a:hover {
         border-bottom: 1px solid #f8f8f8;
+
+
     }
 
     .content {
@@ -43,14 +52,17 @@ header {
 
 
 
+
         li {
 
             list-style: none;
+            padding: 20px 20px;
 
 
             a {
                 text-decoration: none;
-                padding: 8px 20px;
+                padding: 8px 15px;
+                ;
                 color: white;
                 border-bottom: 1px solid rgb(80, 79, 79);
 
@@ -64,7 +76,7 @@ header {
                 background-color: rgb(17, 17, 17);
                 position: absolute;
 
-                top: 40px;
+                top: 80px;
                 display: none;
                 width: 200px;
 
@@ -74,13 +86,15 @@ header {
                     }
                 }
 
-                li {
-                    padding: 10px 0px;
+                cursor: pointer;
 
+                li {
+                    padding: 20px 20px;
+                    border-bottom: 1px solid rgb(80, 79, 79);
 
                     a {
                         padding: 7px 0px;
-                        border-bottom: 1px solid rgb(80, 79, 79);
+
                         left: 0;
 
 
@@ -88,6 +102,7 @@ header {
                             position: absolute;
                             display: none;
                             left: 400px;
+
 
 
 
@@ -106,6 +121,23 @@ header {
                 }
             }
         }
+    }
+
+    .content>li:hover {
+        background-color: purple;
+        border-bottom: 1px solid red;
+
+        a {
+            border-bottom: 1px solid #bab6b6;
+        }
+
+    }
+
+    .content>li>ul>li:hover {
+        background-color: purple;
+        border-bottom: 1px solid red;
+
+        a {}
     }
 
     // ul.content a {
