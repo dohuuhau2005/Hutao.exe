@@ -1,0 +1,46 @@
+body {
+    .dsach {
+        list-style: none;
+
+
+        ul {
+            list-style: none;
+
+
+
+        }
+    }
+
+    .btn2 {
+        display: none;
+    }
+
+    .btn:active {
+        scale: 0.92;
+
+        .btn2 {
+            display: block;
+            position: absolute;
+        }
+    }
+
+    .btn:hover {
+        background: rgb(2, 29, 78);
+        background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+        color: rgb(4, 4, 38);
+
+        .btn2 {
+            display: block;
+            position: absolute;
+        }
+    }
+
+    .btn:: {
+        .btn2 {
+            display: block;
+            position: absolute;
+        }
+    }
+
+
+}
