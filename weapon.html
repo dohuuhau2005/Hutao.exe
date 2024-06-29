@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./weapon.scss">
 </head>
+<style>
+    .Refinement {}
+</style>
 
 <body>
-    <div>
-        <img src="https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Icon_Polearm.png/revision/latest?cb=20210413210804"
-            height="128">
-
+    <div class="weapon1">
+        <img class="homa"
+            src="https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/staff_of_homa.png?strip=all&amp;quality=100&amp;w=236"
+            alt="Staff of Homa">
+        <div class="contentweapon1">
+            <p>Staff of Homa (5★)</p>
+            <p>Type: Polearm</p>
+            <p>Secondary: CRIT DMG</p>
+            <p>A "firewood staff" that was once used in ancient and long-lost rituals.</p>
+        </div>
     </div>
+    <div><button onclick="showhide()">Refinement</button></div>
+    <div id="Refinement" class="Refinement">
+        <p>HP increased by 20%. Additionally, provides an ATK Bonus based on 0.8% of the wielder's Max HP. When the
+            wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1% of Max HP.
+        </p>
+        <p>HP increased by 25%. Additionally, provides an ATK Bonus based on 1% of the wielder's Max HP. When the
+            wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.2% of Max HP.
+        </p>
+        <p>HP increased by 30%. Additionally, provides an ATK Bonus based on 1.2% of the wielder's Max HP. When the
+            wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.4% of Max HP.
+        </p>
+        <p>HP increased by 35%. Additionally, provides an ATK Bonus based on 1.4% of the wielder's Max HP. When the
+            wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.6% of Max HP.
+        </p>
+        <p>HP increased by 40%. Additionally, provides an ATK Bonus based on 1.6% of the wielder's Max HP. When the
+            wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.8% of Max HP.
+        </p>
+    </div>
+    <script src="./weapon.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b47a7a;
+
+    .weapon1 {
+
+        display: flex;
+
+        .contentweapon1 {
+            margin-top: 60px;
+            margin-left: 60px;
+            width: 200px;
+            font-size: 29px;
+            color: rgb(224, 221, 221);
+            font-family: 'Courier New', Courier, monospace;
+            width: 434px;
+        }
+
+
+        .homa {
+
+            margin-top: 60px;
+            margin-left: 60px;
+            width: 200px;
+        }
+    }
+
+
+
+}
