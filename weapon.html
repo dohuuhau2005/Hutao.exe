@@ -8,6 +8,47 @@
 </head>
 <style>
     .Refinement {}
+
+
+    .Refinement .level {
+        display: flex;
+        font-size: 30px;
+        margin-left: 40px;
+
+    }
+
+    .Refinement .level .contentlv2 {
+        margin-left: 60px;
+    }
+
+    .btnclass {
+        .btn {
+            padding: 20px 20px;
+            background-color: greenyellow;
+            border-radius: 50%;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            scale: 0.9;
+            background-color: rgb(102, 105, 96);
+        }
+    }
+
+    .Refinement {
+        font-size: 25px;
+
+        color: rgb(224, 221, 221);
+        font-family: 'Courier New', Courier, monospace;
+
+
+    }
+
+    .Refinement p {
+        border-bottom: 1px solid rgb(46, 45, 45);
+        padding: 20px 15px;
+    }
 </style>
 
 <body>
@@ -22,8 +63,18 @@
             <p>A "firewood staff" that was once used in ancient and long-lost rituals.</p>
         </div>
     </div>
-    <div><button onclick="showhide()">Refinement</button></div>
+    <div class="btnclass"><button onclick="toggleContent('Refinement')" class="btn">Refinement</button></div>
     <div id="Refinement" class="Refinement">
+        <div class="level">
+            <div class="contentlv1">
+                <p>Base ATK: 608</p>
+                <p>CRIT DMG: 66.2</p>
+            </div>
+            <div class="contentlv2">
+                <p>Level: 90</p>
+                <p>Ascension: 6</p>
+            </div>
+        </div>
         <p>HP increased by 20%. Additionally, provides an ATK Bonus based on 0.8% of the wielder's Max HP. When the
             wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1% of Max HP.
         </p>
@@ -38,6 +89,207 @@
         </p>
         <p>HP increased by 40%. Additionally, provides an ATK Bonus based on 1.6% of the wielder's Max HP. When the
             wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.8% of Max HP.
+        </p>
+    </div>
+    <div class="weapon2 weapon1">
+        <img class="homa"
+            src="https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/staff_of_the_scarlet_sands.png?strip=all&quality=100&w=236"
+            alt="Staff of the Scarlet Sands (5★)">
+        <div class="contentweapon1">
+            <p>Staff of the Scarlet Sands (5★)</p>
+            <p>Type: Polearm</p>
+            <p>Secondary: CRIT Rate</p>
+            <p>One of a paired set of scepters fashioned from obsidian. Legend has it that these staves grant the right
+                to lead the people of the desert, but no retainer now lives who can verify the proper appearance of
+                these regalia.</p>
+        </div>
+    </div>
+    <div class="btnclass"><button onclick="toggleContent('Refinement1')" class="btn">Refinement</button></div>
+    <div id="Refinement1" class="Refinement1 Refinement">
+        <div class="level">
+            <div class="contentlv1">
+                <p>Base ATK: 542</p>
+                <p>CRIT Rate: 44.1</p>
+            </div>
+            <div class="contentlv2">
+                <p>Level: 90</p>
+                <p>Ascension: 6</p>
+            </div>
+        </div>
+        <p>The equipping character gains 52% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits
+            opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain
+            28% of their Elemental Mastery as bonus ATK. Max 3 stacks.
+        </p>
+        <p>The equipping character gains 65% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits
+            opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain
+            35% of their Elemental Mastery as bonus ATK. Max 3 stacks.
+        </p>
+        <p>The equipping character gains 78% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits
+            opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain
+            42% of their Elemental Mastery as bonus ATK. Max 3 stacks. </p>
+        <p>The equipping character gains 91% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits
+            opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain
+            49% of their Elemental Mastery as bonus ATK. Max 3 stacks.
+        </p>
+        <p>The equipping character gains 104% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits
+            opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain
+            56% of their Elemental Mastery as bonus ATK. Max 3 stacks.
+        </p>
+    </div>
+    <div class="weapon3 weapon1">
+        <img class="homa"
+            src="https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/primordial_jade_wingedspear.png?strip=all&quality=100&w=236"
+            alt="Staff of Homa">
+        <div class="contentweapon1">
+            <p>Primordial Jade Winged-Spear(5★)</p>
+            <p>Type: Polearm</p>
+            <p>Secondary: CRIT RATE</p>
+            <p>A jade polearm made by the archons, capable of slaying ancient beasts.</p>
+        </div>
+    </div>
+    <div class="btnclass"><button onclick="toggleContent('Refinement2')" class="btn">Refinement</button></div>
+    <div id="Refinement2" class="Refinement">
+        <div class="level">
+            <div class="contentlv1">
+                <p>Base ATK: 674</p>
+                <p>CRIT Rate: 22.1</p>
+            </div>
+            <div class="contentlv2">
+                <p>Level: 90</p>
+                <p>Ascension: 6</p>
+            </div>
+        </div>
+        <p>On hit, increases ATK by 3.2% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in
+            possession of the maximum possible stacks, DMG dealt is increased by 12%.
+        </p>
+        <p>On hit, increases ATK by 3.9% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in
+            possession of the maximum possible stacks, DMG dealt is increased by 15%.
+        </p>
+        <p>On hit, increases ATK by 4.6% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in
+            possession of the maximum possible stacks, DMG dealt is increased by 18%.
+        </p>
+        <p>On hit, increases ATK by 5.3% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in
+            possession of the maximum possible stacks, DMG dealt is increased by 21%.
+        </p>
+        <p>On hit, increases ATK by 6% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in
+            possession of the maximum possible stacks, DMG dealt is increased by 24%.
+        </p>
+    </div>
+    <div class="weapon4 weapon1">
+        <img class="homa"
+            src="https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/dragons_bane.png?strip=all&quality=100&w=236"
+            alt="Staff of Homa">
+        <div class="contentweapon1">
+            <p>Dragon's Bane (4★)</p>
+            <p>Type: Polearm</p>
+            <p>Secondary: Elemental Mastery</p>
+            <p>A polearm decorated with an entwining golden dragon. Light and sharp, this weapon may very well kill
+                dragons with ease.</p>
+        </div>
+    </div>
+    <div class="btnclass"><button onclick="toggleContent('Refinement3')" class="btn">Refinement</button></div>
+    <div id="Refinement3" class="Refinement">
+        <div class="level">
+            <div class="contentlv1">
+                <p>Base ATK: 454</p>
+                <p>Elemental Mastery: 221
+                </p>
+            </div>
+            <div class="contentlv2">
+                <p>Level: 90</p>
+                <p>Ascension: 6</p>
+            </div>
+        </div>
+        <p>Increases DMG against opponents affected by Hydro or Pyro by 20%.
+        </p>
+        <p>Increases DMG against opponents affected by Hydro or Pyro by 24%.
+        </p>
+        <p>Increases DMG against opponents affected by Hydro or Pyro by 28%.
+        </p>
+        <p>Increases DMG against opponents affected by Hydro or Pyro by 32%.
+        </p>
+        <p>Increases DMG against opponents affected by Hydro or Pyro by 36%.
+        </p>
+    </div>
+
+    <div class="weapon4 weapon1">
+        <img class="homa"
+            src="https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/deathmatch.png?strip=all&quality=100&w=236"
+            alt="Staff of Homa">
+        <div class="contentweapon1">
+            <p>Deathmatch (4★)</p>
+            <p>Type: Polearm</p>
+            <p>Secondary: CRIT Rate</p>
+            <p>A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the
+                blood of countless beasts and men.</p>
+        </div>
+    </div>
+    <div class="btnclass"><button onclick="toggleContent('Refinement4')" class="btn">Refinement</button></div>
+    <div id="Refinement4" class="Refinement">
+        <div class="level">
+            <div class="contentlv1">
+                <p>Base ATK: 454</p>
+                <p>CRIT Rate: 36.8
+                </p>
+            </div>
+            <div class="contentlv2">
+                <p>Level: 90</p>
+                <p>Ascension: 6</p>
+            </div>
+        </div>
+        <p>If there are at least 2 opponents nearby, ATK is increased by 16% and DEF is increased by 16%. If there are
+            fewer than 2 opponents nearby, ATK is increased by 24%.
+        </p>
+        <p>If there are at least 2 opponents nearby, ATK is increased by 20% and DEF is increased by 20%. If there are
+            fewer than 2 opponents nearby, ATK is increased by 30%.
+        </p>
+        <p>If there are at least 2 opponents nearby, ATK is increased by 24% and DEF is increased by 24%. If there are
+            fewer than 2 opponents nearby, ATK is increased by 36%.
+        </p>
+        <p>If there are at least 2 opponents nearby, ATK is increased by 28% and DEF is increased by 28%. If there are
+            fewer than 2 opponents nearby, ATK is increased by 42%.
+        </p>
+        <p>If there are at least 2 opponents nearby, ATK is increased by 32% and DEF is increased by 32%. If there are
+            fewer than 2 opponents nearby, ATK is increased by 48%.
+        </p>
+    </div>
+    <div class="weapon5 weapon1">
+        <img class="homa"
+            src="https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/blackcliff_pole.png?strip=all&quality=100&w=236"
+            alt="Staff of Homa">
+        <div class="contentweapon1">
+            <p>Blackcliff Pole (4★)</p>
+            <p>Type: Polearm</p>
+            <p>Secondary: CRIT DMG</p>
+            <p>A weapon made of blackcliff and aerosiderite. There is a dark crimson glow on its cold black sheen.</p>
+        </div>
+    </div>
+    <div class="btnclass"><button onclick="toggleContent('Refinement5')" class="btn">Refinement</button></div>
+    <div id="Refinement5" class="Refinement">
+        <div class="level">
+            <div class="contentlv1">
+                <p>Base ATK: 510</p>
+                <p>CRIT DMG: 55.1</p>
+            </div>
+            <div class="contentlv2">
+                <p>Level: 90</p>
+                <p>Ascension: 6</p>
+            </div>
+        </div>
+        <p>After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the
+            duration of each stack is independent of the others.
+        </p>
+        <p>After defeating an enemy, ATK is increased by 15% for 30s. This effect has a maximum of 3 stacks, and the
+            duration of each stack is independent of the others.
+        </p>
+        <p>After defeating an enemy, ATK is increased by 18% for 30s. This effect has a maximum of 3 stacks, and the
+            duration of each stack is independent of the others.
+        </p>
+        <p>After defeating an enemy, ATK is increased by 21% for 30s. This effect has a maximum of 3 stacks, and the
+            duration of each stack is independent of the others.
+        </p>
+        <p>After defeating an enemy, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the
+            duration of each stack is independent of the others.
         </p>
     </div>
     <script src="./weapon.js"></script>
