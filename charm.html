@@ -6,16 +6,23 @@
     <title>Charm</title>
     <link rel="stylesheet" href="./charm.scss">
 </head>
+
 <header>
     <div class="back_button">
         <a href="./Main.html"><ion-icon name="arrow-back-outline"></ion-icon></a>
     </div>
+
     <!-- <div class="Menuontop">
         <img src="./menubackround.png" alt="">
     </div> -->
 </header>
+<script>
+    document.getElementById("myAudio").loop = true;
+</script>
 
 <body>
+
+    <audio controls autoplay loop src="./lyue.mp3" style="display: none; "></audio>
     <div class="line1"><img src="./charmimg/charm1.gif" alt="">
         <img src="./charmimg/charm2.jpg" alt="">
         <img src="./charmimg/charm3.gif" alt="">
@@ -48,14 +55,16 @@
 
     </div>
 
-
+    <!-- <script src="./charm.js"></script> -->
 </body>
 <footer>
     <div class="line7">
         <img src="./charmimg/charm14.jpg" alt="">
     </div>
 </footer>
+
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
 </html>
